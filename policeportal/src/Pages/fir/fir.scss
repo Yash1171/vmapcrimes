@@ -1,0 +1,125 @@
+.Fir{
+    display: flex;
+    
+
+    .fircontainer{
+        flex: 6;
+
+        .header{
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            width: 70vw;
+            min-height: 60vh;
+            
+            padding: 15px;
+            padding-left: 60px;
+            font-size: 1.1rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h2{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                margin-top: -.5rem;
+                justify-content: center;
+                margin-left: 8rem;
+                width: 40%;
+                border-bottom: 2.5px solid #2804f5;
+                
+            
+            }
+        }
+        
+
+        .container{
+            
+            padding: 14px;
+            padding-right: 20px;
+            background: transparent;
+            min-height: 50px;
+            max-width: 900px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border: .5px solid rgb(170, 87, 181);
+            -webkit-box-shadow: 5px 5px 10px 5px rgba(88,109,240,1);
+    -moz-box-shadow: 15px 15px 10px 5px rgba(88,109,240,1);
+    box-shadow: 5px 5px 10px 5px rgba(88,109,240,1);
+    border-radius: 2.5px;
+
+            .left, .right{
+                padding: 0.5rem;
+                font-weight: 550;
+                flex-basis: 50%;
+                padding-right: 15px;
+
+                h4{
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                    text-align: center;
+                    font-weight: 400;
+                    margin-top: 15px;
+                    margin-bottom: -8px;
+                }
+
+                input{
+                    background: transparent;
+                }
+                select{
+                    background: transparent;
+                }
+
+                input[type="submit"]{
+                    width: 100%;
+                    background-color: red;
+                    color: white;
+                    font-size: 1rem;
+                    border: none;
+
+                    &:hover{
+                        background-color: green;
+                        cursor: pointer;
+                    }
+                }
+                
+
+                form{
+                    padding: 1rem;
+                    color: rgb(41, 40, 40);
+                    font-weight: 550;
+    
+                    input{
+                        width: 100%;
+                        padding: .5rem .7rem;
+                        margin: .5rem 0;
+                        outline: none;
+                        text-decoration: none;
+                        border: none;
+                        border-bottom: 2px solid blue;
+    
+                    }
+
+                    .Zip{
+                        display: flex;
+                        margin: .5rem 0;
+                        outline: none;
+                        width: 100%;
+                        justify-content: space-between;
+                        gap: 20px;
+
+                        select{
+                            padding: .5rem .7rem;
+                            margin: .5rem 0;
+                            cursor: pointer;
+                            outline: none;
+                        }
+                    }
+                    
+            }
+            
+            
+            }  
+        }
+    }
+}
+
+
+

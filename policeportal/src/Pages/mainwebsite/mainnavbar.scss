@@ -1,0 +1,128 @@
+.Navbar{
+    background-color: aliceblue;
+    height: 50px;
+    border-bottom: 1px solid rgba(192, 140, 230, 0.845);
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+    color: #555;
+    font-weight: 550;
+    
+    
+    
+
+    .wrapper{
+        width: 100%;
+        padding: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .Welcome{
+    
+            padding-left: 5px;
+            padding-top: 5px;
+            color: blueviolet;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .search{
+            display: flex;
+            align-items: center;
+            border: .5px solid gray;
+            padding: 3px;
+            border-radius: 3.5px;
+            .search::placeholder{
+                font-weight: 450;
+                color: gray;
+            }
+
+            &:hover{
+                color: rgb(94, 55, 236);
+                
+            }
+
+            input{
+                border: none;
+                outline: none;
+                background: transparent;
+                
+                &::placeholder{
+                    font-size: 14px;
+                }
+                &:hover{
+                    color: rgb(94, 55, 236);
+                }
+               
+            }
+        }
+        .items{
+            display: flex;
+            align-items: center;
+            position: relative;
+            justify-content: space-between;
+            gap: 18px;
+            transition:all linear .5s;
+
+
+            .item{
+                display: flex;
+                align-items: center;
+                margin-right: 20px;
+                cursor: pointer;
+                position: relative;
+                transition:all linear .5s;
+               
+                
+
+                .links{
+                    color: blueviolet !important ;
+                    font-size: 18px;
+                    display: inline-block;
+                    padding: 5px;
+
+                    &:hover{
+                        background: blueviolet;
+                        color: white  !important;
+                        font-weight: 550;
+                        font-size: 18px;
+                        display: inline-block;
+                        padding: 5px;
+                        box-shadow: 4px 2px 6px 1.4px rgb(112, 74, 227);
+                        border-radius: 2px;
+                    }
+                }
+
+                .icon{
+                    font-size: 1.5em;
+                }
+
+                .avatar{
+                    height: 45px;
+                    width: 45px;
+                    border-radius: 50%;
+                    cursor: pointer;
+                    object-fit: cover;
+                }
+
+                .counter{
+                    height: 15px;
+                    width: 15px;
+                    background-color: red;
+                    border-radius: 50%;
+                    color: white;
+                    align-items: center;
+                    display: flex;
+                    
+                    justify-content: center;
+                    font-size: 10px;
+                    font-weight: bold;
+                    position: absolute;
+                    top: -6px;
+                    right: -6px;
+                }
+            }
+        }
+    }
+}

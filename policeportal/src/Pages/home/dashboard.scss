@@ -1,0 +1,39 @@
+.home{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    .homeContainer{
+                
+        flex: 6;
+
+        .widgets, .charts{
+            display: flex;
+            padding: 1.4em;
+            gap: 20px;
+
+            
+        }
+        .charts{
+            padding: 1.1em 1.2em;
+            
+        }
+
+        .listcontainer{
+            -webkit-box-shadow: 5px 5px 10px 0px rgba(88,109,240,1);
+            -moz-box-shadow: 5px 5px 10px 0px rgba(88,109,240,1);
+            box-shadow: 5px 5px 10px 0px rgba(88,109,240,1);
+            border-radius: 10px;
+            min-height: 100px;
+            margin: 20px;
+            padding: 14px;
+
+            .listTitle{
+                
+                font-weight: 545;
+                color: gray;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+.Header{
+    background: rgb(190, 188, 188);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Inter";
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+}
+.login_form > h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+}
+
+.login_form > input{
+    min-width: 380px;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    border: 1px solid rgba(0, 0, 0, .24);
+    outline: none;
+    font-size: 15px;
+    font-family: "Tahoma";
+    border-radius: 2px;
+    
+}
+.submit__btn{
+    padding: 18px 30px;
+    margin-top: 8px;
+    background: rgb(24, 24, 24);
+    border: none;
+    color: white;
+    font-size: 14px;
+    font-family: "Inter";
+    border-radius: 3px;
+    font-size: 19px;
+    font-weight: 400;
+    
+}
+.submit__btn:hover{
+    background-color: rgb(41, 207, 66);
+    cursor: pointer;
+}

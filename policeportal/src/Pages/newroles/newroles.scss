@@ -1,0 +1,95 @@
+.newroles{
+    display: flex;
+
+    .newrolescontainer{
+        flex: 6;
+        .top, .bottom{
+            -webkit-box-shadow: 5px 5px 10px 0px rgba(88,109,240,1);
+            -moz-box-shadow: 5px 5px 10px 0px rgba(88,109,240,1);
+            box-shadow: 5px 5px 10px 0px rgba(88,109,240,1);
+            border-radius: 4px;
+            padding: 10px;
+            margin: 20px;
+            display: flex;
+
+            h1{
+                color: rgb(165, 165, 165);
+                font-size: 20px;
+            }
+
+            .left{
+                flex: 1;
+                text-align: center;
+
+                img{
+                    height: 100px;
+                    width: 100px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            }
+            .right{
+                flex: 2.5;
+                padding: 0 7em;
+
+                form{
+                    display: grid;
+                    flex-wrap: wrap;
+                    gap: 20px;
+                    
+
+                    .formInput{
+                        display: block;
+                        width: 40%;
+                        font-weight: 500;
+                        align-items: center;
+                        
+                        
+
+                        
+                        input[type="checkbox"]{
+                            width: 5%;
+                            align-items: center;
+                            
+                        }
+                        
+                        .icon{
+                            cursor: pointer;
+                            color: blueviolet;
+                            
+                        }
+
+                        label{
+                            display: flex;
+                            gap: 10px;
+                        }
+                        
+                        
+
+                        input{
+                            width: 100%;
+                            padding: 5px;
+                            border: none;
+                            border-bottom: 1px solid gray;
+                            outline: none;
+                            background: transparent;
+                            align-items: center;
+                            
+                        }
+                    }
+                    
+                }
+                button{
+                    width: 150px;
+                    padding: 5px;
+                    background-color: teal;
+                    border: none;
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+}

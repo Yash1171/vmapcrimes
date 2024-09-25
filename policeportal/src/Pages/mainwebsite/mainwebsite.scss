@@ -1,0 +1,55 @@
+.mainhome{
+    display: grid;
+
+    .leftside{
+        height: 100vh;
+        width: 20px;
+        padding: 1rem;
+        background-color: aqua;
+    }
+
+    .mapcontain{
+        display: flex;
+        padding-top: 2.5rem;
+        padding-left: 1rem;
+        justify-content: right;
+        .mapright{
+            padding: 0.2rem;
+            padding-left: 0.2px;
+            padding-right: 0;
+            
+            display: flex;
+
+            .right_sidebar{
+                display: flex;
+                justify-content: right;
+            }
+        }
+
+        .popup{
+            
+            justify-content: center;
+            
+
+            ul{
+                list-style: none;
+
+                .active{
+                    background: orangered;
+                    display: inline-block;
+                    padding: 5px;
+                }
+
+                p{
+                    font-weight: bold;
+                }
+            }
+            
+        }
+
+        .avatar{
+            width: 45%;
+        }
+        
+    }
+}

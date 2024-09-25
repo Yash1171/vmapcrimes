@@ -1,0 +1,118 @@
+.Roles{
+    display: flex;
+
+    .rolesContainer{
+        flex: 6;
+        
+        
+        .title{
+            text-decoration: none;
+            padding-top: 4em;
+            margin-top: 25px;
+            padding-left: 14em ;
+            display: flex;
+            gap: 12em;
+            color: grey;
+            margin-bottom: 5px;
+            
+            .manage{
+                font-size: 1.5em;
+                padding: 0 10px;
+                font-weight: 600;
+            }
+            .addrole{
+                text-decoration: none;
+                font-size: 15px;
+                padding: 4px;
+                border: 1.4px solid green;
+                border-radius: 2.5px;
+                color: rgb(39, 166, 39);
+                font-weight: 500;
+            }
+        }
+
+        .contentbox{
+            padding-left: 10em;
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+
+            .content{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 30px 55px;
+                margin-left: 70px;
+                -webkit-box-shadow: 5px 5px 10px 0px rgba(88,109,240,1);
+                -moz-box-shadow: 5px 5px 10px 0px rgba(88,109,240,1);
+                box-shadow: 5px 5px 10px 0px rgba(88,109,240,1);
+                border-radius: 10px;
+
+                .left{
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    span{
+                        margin: 14px;
+                        font-size: 20px;
+                        font-weight: 400;
+                        color: gray;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 5px;
+                        
+                        .spancontent{
+                            display: flex;
+                            gap: 7px;
+
+                            .icon{
+                                justify-content: center;
+                                align-items: center;
+                                color: rgb(132, 52, 236);
+                            }
+                        }
+                        
+                    }
+                }
+
+                .right{
+                    
+
+                    .rightcontent{
+                        display: flex;
+                        gap: 5px;
+                        
+
+                        .delete{
+                            margin: 14px;
+                            font-size: 15px;
+                            text-align: center;
+                            font-weight: 500;
+                            padding: 5px 5px;
+                            color: white;
+                            border-radius: 2.5px;
+                            background-color: rgb(246, 43, 84);
+                            cursor: pointer;
+                        }
+
+                        .edit{
+                            margin: 14px;
+                            font-size: 15px;
+                            font-weight: 500;
+                            padding: 5px 8px;
+                            color: white;
+                            border-radius: 2.5px;
+                            background-color: rgb(66, 200, 84);
+                            cursor: pointer;
+                        }
+                    }
+                }
+                
+            }
+        }
+
+        
+    }
+}
